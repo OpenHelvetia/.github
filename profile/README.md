@@ -6,13 +6,17 @@ A Swiss association ([openhelvetia.swiss](https://openhelvetia.swiss)) that buil
 
 | Layer | Module | Repository | State |
 |---|---|---|---|
-| L2 · Machine access | MCP server over Fedlex (Swiss federal law, 35 tools) | [mcp-fedlex](https://github.com/OpenHelvetia/mcp-fedlex) | prepared |
-| L2 · Machine access | MCP server over LINDAS (political data cubes, 8 tools) | [mcp-lindas](https://github.com/OpenHelvetia/mcp-lindas) | prepared |
+| L2 · Machine access | MCP server over Fedlex (Swiss federal law, 35 tools) | [mcp-fedlex-oh](https://github.com/OpenHelvetia/mcp-fedlex-oh) | prepared |
+| L2 · Machine access | MCP server over the political data cubes in LINDAS (8 tools) | [mcp-lindas-politics-oh](https://github.com/OpenHelvetia/mcp-lindas-politics-oh) | prepared |
 | L0 · Standard and register | Manifest standard and validation chain | coming next | draft |
 | L1 · Directory and verification | Checker (`oh-check`) | coming next | prepared |
 | L2 · Machine access | MCP gateway, API spine, A2A agent | after their dependencies | prepared |
 
 The states are the six words of the platform's [state vocabulary](https://openhelvetia.swiss/en/docs/reference/state-words/); what each module is, how to run, test and call it, is on its card and guide on the website: [Infrastructure](https://openhelvetia.swiss/en/directory/) · [Documentation](https://openhelvetia.swiss/en/docs/).
+
+## How the repositories are named
+
+Every repository ends in `-oh`: it is the association's own build over a public holding, never the holding itself. What the name says before that is the protocol and the slice of the holding it covers — `mcp-lindas-politics-oh` is the MCP server over the *political* cubes in LINDAS, not over LINDAS as a whole.
 
 ## How to read these repositories
 
