@@ -6,11 +6,12 @@ A Swiss association ([openhelvetia.swiss](https://openhelvetia.swiss)) that buil
 
 | Layer | Module | Repository | State |
 |---|---|---|---|
+| L0 · Standard and register | Manifest standard, validator, seal register, agent-card tools | [standard-manifest-oh](https://github.com/OpenHelvetia/standard-manifest-oh) | draft |
+| L1 · Directory and verification | Checker (`oh-check`): probes, history, badges | [checker-oh](https://github.com/OpenHelvetia/checker-oh) | prepared |
 | L2 · Machine access | MCP server over Fedlex (Swiss federal law, 35 tools) | [mcp-fedlex-oh](https://github.com/OpenHelvetia/mcp-fedlex-oh) | prepared |
 | L2 · Machine access | MCP server over the political data cubes in LINDAS (8 tools) | [mcp-lindas-politics-oh](https://github.com/OpenHelvetia/mcp-lindas-politics-oh) | prepared |
-| L0 · Standard and register | Manifest standard and validation chain | coming next | draft |
-| L1 · Directory and verification | Checker (`oh-check`) | coming next | prepared |
-| L2 · Machine access | MCP gateway, API spine, A2A agent | after their dependencies | prepared |
+| L2 · Machine access | API spine: fourteen operations, spec from code, generated client, passkey login | [api-spine-oh](https://github.com/OpenHelvetia/api-spine-oh) | prepared |
+| L2 · Machine access | MCP gateway, A2A agent | after the spine is settled | prepared |
 
 The states are the six words of the platform's [state vocabulary](https://openhelvetia.swiss/en/docs/reference/state-words/); what each module is, how to run, test and call it, is on its card and guide on the website: [Infrastructure](https://openhelvetia.swiss/en/directory/) · [Documentation](https://openhelvetia.swiss/en/docs/).
 
