@@ -23,7 +23,7 @@ Every repository ends in `-oh`: it is the association's own build over a public 
 
 - Every repository builds and tests on its own, offline, from recorded fixtures: `cargo test --locked --manifest-path <crate>/Cargo.toml`.
 - Each README says at the bottom which corpus commit it was published from. Changes go through the corpus and arrive with the next publication; issues here are welcome.
-- Security reports, in confidence: security@openhelvetia.swiss.
+- Security reports, in confidence: admin@openhelvetia.swiss.
 
 ## Licence
 
